@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.header {
+  background: #004466;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.content {
+  padding: 2em;
+}
+.section_plot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+.section_plot img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+footer {
+  text-align: center;
+  background: #eee;
+  padding: 1em;
+  margin-top: 2em;
+}
