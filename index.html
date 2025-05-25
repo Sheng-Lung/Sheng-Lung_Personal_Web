@@ -50,6 +50,20 @@
       <h2>Self-Introduction</h2>
       <p>Hello! I’m XXX, and this is my seismic waveform viewer and filter tool, developed for geophysical data visualization.</p>
     </section>
+    <section id="ml">
+      <h2>Function 4: Machine Learning Structure</h2>
+      <p>Select a model to view its architecture:</p>
+      <div style="margin-bottom: 1rem;">
+        <button onclick="showModel('cnn')">CNN</button>
+        <button onclick="showModel('lstm')">LSTM</button>
+        <button onclick="showModel('lstm_attention')">LSTM + Attention</button>
+        <button onclick="showModel('lstm_drop')">LSTM + Dropout</button>
+        <button onclick="showModel('transformer')">Transformer</button>
+      </div>
+      <div id="modelDisplay">
+        <img id="modelImage" src="images/cnn.png" alt="Model Architecture" style="width:100%; max-width:800px;">
+      </div>
+    </section>
   </main>
   <footer>
     <p>&copy; 2025 XXX. All rights reserved.</p>
